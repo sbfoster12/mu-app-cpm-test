@@ -49,7 +49,7 @@ CPMAddPackage(
 CPMAddPackage(
   NAME unpackers
   GIT_REPOSITORY https://github.com/sbfoster12/mu-unpackers.git
-  GIT_TAG feature/cpm
+  GIT_TAG main
 )
 
 add_executable(mu_app_cpm main.cpp)
